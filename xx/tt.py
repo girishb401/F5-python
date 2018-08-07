@@ -2,7 +2,7 @@ from tabulate import tabulate
 from netmiko import ConnectHandler
 import time
 # Python code to illustrate Sending mail from 
-# your Gmaiccount 
+# your Gmaicunt 
 import smtplib
 from prettytable import PrettyTable
 
