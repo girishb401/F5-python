@@ -2,7 +2,7 @@ from tabulate import tabulate
 from netmiko import ConnectHandler
 import time
 # Python code to illustrate Sending mail from 
-# your Gmail account 
+# your Gmaiccount 
 import smtplib
 from prettytable import PrettyTable
 
