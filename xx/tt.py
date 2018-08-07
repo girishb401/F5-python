@@ -17,7 +17,7 @@ F5_LTM = {
 
 net_connect = ConnectHandler(**F5_LTM)
 
-#output = net_connect.find_prompt()
+#output = net_connect.find_prompt(
 
 #o1=net_connect.config_mode() 
 
