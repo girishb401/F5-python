@@ -2,7 +2,7 @@ from tabulate import tabulate
 from netmiko import ConnectHandler
 import time
 # Python code to illustrate Sending mail from 
-# your Gmaiccount 
+# you 
 import smtplib
 from prettytable import PrettyTable
 
@@ -34,8 +34,8 @@ str1= str("F5 LTM Version")
 #print ( "Collecting F5 Hardware ")
 
 o1234 = str("=============================F5 LTM Hardware=============================")
-output1234 = net_connect.send_command('  show sys license  ')
-int1 = output1234.index('Registration')
+output1234 = net_connect.send_command('  show sys hardware')
+int1 = output1234.index('Chassis')
 #print outp
 str2= str("F5 Chassis SN ")
 hw = (output1234[int1: int1+50])
